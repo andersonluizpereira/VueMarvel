@@ -1,8 +1,8 @@
 import axios from 'axios'
 import md5 from 'md5'
 const urlBaseMarvel = 'https://gateway.marvel.com/v1/public/'
-const apiKey = 'f2aef569ee6f38276c60b9264d1dec2b'
-const HashKeys = '0126a49f00e1063a8f441de67dfd56090cb24be6'
+const apiKey = ''
+const HashKeys = ''
 var date = new Date()
 var ts = date.getTime()
 var hash = md5(ts + HashKeys + apiKey)
